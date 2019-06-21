@@ -39,7 +39,7 @@ exports[`renders correctly 1`] = `
 exports[`renders the ActivityIndicator component 1`] = `
 <ActivityIndicator
   animating={true}
-  color="#999997"
+  color="#999999"
   hidesWhenStopped={true}
   size="small"
 />
