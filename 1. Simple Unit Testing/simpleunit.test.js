@@ -1,4 +1,4 @@
-test("Primitive type comaprison", () => {
+test("Primitive type comparison", () => {
   expect(2).toBe(2);
   expect(3).not.toBe(3.5);
   expect(true).toBeTruthy();
