@@ -5,6 +5,10 @@ it("Promise test with resolves", () => {
   expect(rand.rand()).resolves.toBeGreaterThanOrEqual(0);
 });
 
+it("Promise test with rejects", () => {
+  expect(rand.rand()).rejects.toBeUndefined();
+});
+
 it("Async promise test", async () => {
   expect.assertions(1);
   const r = await rand.rand();
